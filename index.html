@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CommuNitty Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        
+        <header class="header-art">
+            <img src="https://www.shutterstock.com/image-vector/vector-illustration-cute-cartoon-dog-260nw-2650284283.jpg" alt="Cute Animals Banner" class="banner-img">
+        </header>
+
+        <div class="main-layout">
+            
+            <aside class="sidebar-nav">
+                <div class="nav-title">COMMUNITY</div>
+                <button class="nav-btn active">FEEDING STATIONS</button>
+                <button class="nav-btn">CLEANUP MAP</button>
+                <button class="nav-btn">STRAY REGISTRY</button>
+                <button class="nav-btn">COMMUNITY FUND</button>
+            </aside>
+
+            <section class="quick-links-panel">
+                <div class="brand-header">
+                    <div class="brand-icon">🐾</div>
+                    <div class="brand-text">commu<br><span>NITTY</span></div>
+                </div>
+                <button class="panel-btn">ACTIVE FEEDING VOLUNTEERS</button>
+                <button class="panel-btn">OPEN CLEANUP TASK</button>
+                <button class="panel-btn">NEW REGISTERED ANIMALS</button>
+                <button class="panel-btn">THE APPOINTMENTS</button>
+            </section>
+
+            <main class="dashboard-grid">
+                
+                <div class="card feeding-status">
+                    <h3>FEEDING SCHEDULE STATUS</h3>
+                    <div class="progress-section">
+                        <label>TODAY'S SHIFTS FILLED</label>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="width: 25%;"></div>
+                            <span class="progress-percentage">25%</span>
+                        </div>
+                    </div>
+                    <div class="roster-section">
+                        <h4>NEXT 7 DAYS ROSTER</h4>
+                        <div class="days-row">
+                            <div class="day-badge active"><span>1</span><br>MON</div>
+                            <div class="day-badge"><span>2</span><br>TUE</div>
+                            <div class="day-badge"><span>3</span><br>WED</div>
+                            <div class="day-badge"><span>4</span><br>THU</div>
+                            <div class="day-badge"><span>5</span><br>FRI</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card cleanup-overview">
+                    <h3>CLEANUP DISPATCH OVERVIEW</h3>
+                    <div class="dispatch-content">
+                        <div class="issue-legend">
+                            <p class="legend-title">ISSUE PINS</p>
+                            <span class="badge mess">MESS</span>
+                            <span class="badge safety">SAFETY PINS</span>
+                        </div>
+                        <div class="map-placeholder">
+                            <img src="c:\Users\HF\Pictures\Screenshots\Screenshot 2026-06-24 204758.png" alt="Map Overview">
+                        </div>
+                    </div>
+                    <div class="response-time">
+                        <span>AVERAGE RESPONSE TIME</span>
+                        <span class="time-value">5 mins</span>
+                    </div>
+                </div>
+
+                <div class="card stray-registry">
+                    <h3>STRAY REGISTRY AND TNR</h3>
+                    <div class="carousel-container">
+                        <button class="carousel-arrow">&lt;</button>
+                        
+                        <div class="carousel-track">
+                            <div class="stray-card">
+                                <img src="https://i.pinimg.com/736x/fd/42/8c/fd428ca384cf4d5ab93fb49682500ca4.jpg" alt="Ellie" class="stray-thumb">
+                                <div class="stray-info">
+                                    <span class="stray-name">ELLIE</span>
+                                    <span class="stray-stars">★★★★★</span>
+                                </div>
+                            </div>
+                            <div class="stray-card">
+                                <img src="https://i.pinimg.com/736x/e2/84/de/e284deb0d30376baa46ea51d5da7003f.jpg" alt="Alita" class="stray-thumb">
+                                <div class="stray-info">
+                                    <span class="stray-name">ALITA</span>
+                                    <span class="stray-stars">★★★★★</span>
+                                </div>
+                            </div>
+                            <div class="stray-card">
+                                <img src="https://i.pinimg.com/control1/736x/63/e6/5c/63e65c9f222efd5f9a7656c00bd4de1a.jpg" alt="Lei" class="stray-thumb">
+                                <div class="stray-info">
+                                    <span class="stray-name">LEI</span>
+                                    <span class="stray-stars">★★★☆☆</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-arrow">&gt;</button>
+                    </div>
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+
+                <div class="card animal-list-card">
+                    <ul class="animal-list">
+                        <li>
+                            <img src="https://i.pinimg.com/736x/fd/42/8c/fd428ca384cf4d5ab93fb49682500ca4.jpg" alt="Ellie" class="avatar">
+                            <span class="list-name">(1.) ELLIE</span>
+                        </li>
+                        <li>
+                            <img src="https://i.pinimg.com/736x/e2/84/de/e284deb0d30376baa46ea51d5da7003f.jpg" alt="Alita" class="avatar">
+                            <span class="list-name">(2.) ALITA</span>
+                        </li>
+                        <li>
+                            <img src="https://i.pinimg.com/control1/736x/63/e6/5c/63e65c9f222efd5f9a7656c00bd4de1a.jpg" alt="Lei" class="avatar">
+                            <span class="list-name">(3.) LEI</span>
+                        </li>
+                        <li>
+                            <img src="https://i.pinimg.com/736x/9f/4c/a2/9f4ca25089a7f051c3e0ac3ce0e4f533.jpg" alt="Minggay" class="avatar">
+                            <span class="list-name">(4.) MINGGAY</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </main>
+        </div>
+
+        <footer class="bottom-navbar">
+            <a href="#" class="nav-link">ABOUT US <span>▶</span></a>
+            <a href="#" class="nav-link">OUR WORK <span>▶</span></a>
+            <a href="#" class="nav-link">SUPPORT US <span>▶</span></a>
+            <a href="#" class="nav-link">CONTACT US <span>▶</span></a>
+            <div class="footer-paw-icon">🐾</div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
